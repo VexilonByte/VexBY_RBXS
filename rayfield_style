@@ -567,6 +567,48 @@ InputStroke = Color3.fromRGB(255, 182, 193), -- Roz deschis (Baby Pink)
 PlaceholderColor = Color3.fromRGB(255, 182, 193) -- Roz deschis (Baby Pink)
 };
 
+VexBYmono = {
+TextColor = Color3.fromRGB(255, 255, 255), -- Alb
+
+Background = Color3.fromRGB(70, 70, 70), -- Gri mai deschis
+Topbar = Color3.fromRGB(50, 50, 50), -- Gri închis
+Shadow = Color3.fromRGB(20, 20, 20), -- Negru mai deschis
+
+NotificationBackground = Color3.fromRGB(90, 90, 90), -- Gri mai deschis
+NotificationActionsBackground = Color3.fromRGB(110, 110, 110), -- Gri mediu deschis
+
+TabBackground = Color3.fromRGB(70, 70, 70), -- Gri mai deschis
+TabStroke = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+TabBackgroundSelected = Color3.fromRGB(150, 150, 150), -- Gri deschis
+TabTextColor = Color3.fromRGB(220, 220, 220), -- Aproape alb
+SelectedTabTextColor = Color3.fromRGB(240, 240, 240), -- Aproape alb
+
+ElementBackground = Color3.fromRGB(250, 250, 250), -- Aproape alb
+ElementBackgroundHover = Color3.fromRGB(230, 230, 230), -- Gri foarte deschis
+SecondaryElementBackground = Color3.fromRGB(250, 250, 250), -- Aproape alb
+ElementStroke = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+SecondaryElementStroke = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+
+SliderBackground = Color3.fromRGB(100, 100, 100), -- Gri mai deschis
+SliderProgress = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+SliderStroke = Color3.fromRGB(180, 180, 180), -- Gri foarte deschis
+
+ToggleBackground = Color3.fromRGB(100, 100, 100), -- Gri mai deschis
+ToggleEnabled = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+ToggleDisabled = Color3.fromRGB(80, 80, 80), -- Gri închis
+ToggleEnabledStroke = Color3.fromRGB(150, 150, 150), -- Gri foarte deschis
+ToggleDisabledStroke = Color3.fromRGB(60, 60, 60), -- Gri foarte închis
+ToggleEnabledOuterStroke = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+ToggleDisabledOuterStroke = Color3.fromRGB(80, 80, 80), -- Gri închis
+
+DropdownSelected = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+DropdownUnselected = Color3.fromRGB(250, 250, 250), -- Aproape alb
+
+InputBackground = Color3.fromRGB(230, 230, 230), -- Gri foarte deschis
+InputStroke = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
+PlaceholderColor = Color3.fromRGB(130, 130, 130) -- Gri mai deschis
+};
+
 		Bloom = {
 			TextColor = Color3.fromRGB(60, 40, 50),
 
