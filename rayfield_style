@@ -609,6 +609,48 @@ InputStroke = Color3.fromRGB(130, 130, 130), -- Gri mai deschis
 PlaceholderColor = Color3.fromRGB(130, 130, 130) -- Gri mai deschis
 };
 
+Red = { 
+TextColor = Color3.fromRGB(255, 255, 255), -- Alb
+
+Background = Color3.fromRGB(30, 0, 0), -- Roșu foarte întunecat
+Topbar = Color3.fromRGB(20, 0, 0), -- Roșu aproape negru
+Shadow = Color3.fromRGB(10, 0, 0), -- Roșu foarte aproape de negru
+
+NotificationBackground = Color3.fromRGB(50, 0, 0), -- Roșu foarte întunecat
+NotificationActionsBackground = Color3.fromRGB(70, 0, 0), -- Roșu întunecat
+
+TabBackground = Color3.fromRGB(50, 0, 0), -- Roșu foarte întunecat
+TabStroke = Color3.fromRGB(90, 0, 0), -- Roșu mai deschis
+TabBackgroundSelected = Color3.fromRGB(110, 0, 0), -- Roșu deschis
+TabTextColor = Color3.fromRGB(240, 240, 240), -- Aproape alb
+SelectedTabTextColor = Color3.fromRGB(255, 255, 255), -- Alb
+
+ElementBackground = Color3.fromRGB(255, 220, 220), -- Roșu foarte deschis
+ElementBackgroundHover = Color3.fromRGB(240, 200, 200), -- Roșu deschis
+SecondaryElementBackground = Color3.fromRGB(255, 220, 220), -- Roșu foarte deschis
+ElementStroke = Color3.fromRGB(150, 0, 0), -- Roșu mai deschis
+SecondaryElementStroke = Color3.fromRGB(150, 0, 0), -- Roșu mai deschis
+
+SliderBackground = Color3.fromRGB(70, 0, 0), -- Roșu foarte întunecat
+SliderProgress = Color3.fromRGB(100, 0, 0), -- Roșu mai deschis
+SliderStroke = Color3.fromRGB(150, 0, 0), -- Roșu foarte deschis
+
+ToggleBackground = Color3.fromRGB(70, 0, 0), -- Roșu foarte întunecat
+ToggleEnabled = Color3.fromRGB(100, 0, 0), -- Roșu mai deschis
+ToggleDisabled = Color3.fromRGB(50, 0, 0), -- Roșu foarte întunecat
+ToggleEnabledStroke = Color3.fromRGB(130, 0, 0), -- Roșu foarte deschis
+ToggleDisabledStroke = Color3.fromRGB(40, 0, 0), -- Roșu foarte întunecat
+ToggleEnabledOuterStroke = Color3.fromRGB(100, 0, 0), -- Roșu mai deschis
+ToggleDisabledOuterStroke = Color3.fromRGB(50, 0, 0), -- Roșu întunecat
+
+DropdownSelected = Color3.fromRGB(150, 0, 0), -- Roșu mai deschis
+DropdownUnselected = Color3.fromRGB(255, 220, 220), -- Roșu foarte deschis
+
+InputBackground = Color3.fromRGB(240, 200, 200), -- Roșu foarte deschis
+InputStroke = Color3.fromRGB(150, 0, 0), -- Roșu mai deschis
+PlaceholderColor = Color3.fromRGB(150, 0, 0) -- Roșu mai deschis
+};
+
 		Bloom = {
 			TextColor = Color3.fromRGB(60, 40, 50),
 
