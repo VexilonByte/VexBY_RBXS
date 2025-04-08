@@ -33,14 +33,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Main", nil) 
-local Tab = Window:CreateTab("Misc", nil) 
-local Tab = Window:CreateTab("Scripts", nil) 
-local Tab = Window:CreateTab("Troll", nil) 
-local Tab = Window:CreateTab("Combat", nil) 
-local Tab = Window:CreateTab("Credits", nil) 
-
-
-
-
-
+local Tab = Window:CreateTab("Main", house) 
+local Tab = Window:CreateTab("Misc", sliders-horizontal) 
+local Tab = Window:CreateTab("Scripts", code-xml) 
+local Tab = Window:CreateTab("Troll", smile) 
+local Tab = Window:CreateTab("Combat", swords) 
+local Tab = Window:CreateTab("Credits", users) 
