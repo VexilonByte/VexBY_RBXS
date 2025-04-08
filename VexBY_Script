@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 91205169107205, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "VexBY",
    LoadingSubtitle = "by VexBY",
-   Theme = "VexBYmono", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Default1", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
    DisableBuildWarnings = true, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -33,9 +33,73 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Main", house) 
-local Tab = Window:CreateTab("Misc", sliders-horizontal) 
-local Tab = Window:CreateTab("Scripts", code-xml) 
-local Tab = Window:CreateTab("Troll", smile) 
-local Tab = Window:CreateTab("Combat", swords) 
-local Tab = Window:CreateTab("Credits", users) 
+Rayfield:Notify({
+    Title = "Thanks For Using VexBY MENU!",
+    Content = "Thanks Rayfield UI!",
+    Duration = 3,
+    Image = nil,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = "Ok!",
+          Callback = function()
+             print("VEXBY MENU IS AWESOME!")
+          end
+       }
+    },
+ })
+
+local MainTab = Window:CreateTab("Main", nil) 
+local section = MainTab:CreateSection("Main")
+local Divider = MainTab:CreateDivider()
+
+local MiscTab = Window:CreateTab("Misc", "sliders-horizontal") 
+local section = MiscTab:CreateSection("Misc")
+local Divider = MiscTab:CreateDivider()
+
+local ScriptTab = Window:CreateTab("Scripts", "code-xml") 
+local section = ScriptTab:CreateSection("Scripts")
+local Divider = ScriptTab:CreateDivider()
+
+local TrollTab = Window:CreateTab("Troll", "smile") 
+local section = TrollTab:CreateSection("Troll")
+local Divider = TrollTab:CreateDivider()
+
+local CombatTab = Window:CreateTab("Combat", "swords") 
+local section = CombatTab:CreateSection("Combat")
+local Divider = CombatTab:CreateDivider()
+
+local CreditsTab = Window:CreateTab("Credits", "users") 
+local section = CreditsTab:CreateSection("Credits")
+local Divider = CreditsTab:CreateDivider()
+
+local toggle = MiscTab:CreateToggle({
+   Name = "Invisible",
+   Callback = function()
+        loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Invisible%20Character.txt"))()
+   end,
+})
+
+local toggle = CombatTab:CreateButton({
+    Name = "Aimbot",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VexilonByte/VexBY_RBXS/main/Aimbot.lua"))()
+    end,
+})
+
+local toggle = CombatTab:CreateButton({
+    Name = "Esp",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VexilonByte/VexBY_RBXS/main/Esp.lua"))()
+    end,
+})
+
+local toggle = MiscTab:CreateButton({
+    Name = "fly",
+    Callback = function()
+        loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt"))()
+    end,
+})
+
+
+
+
